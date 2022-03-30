@@ -6,6 +6,7 @@ export default {
     {
       type: "string",
       name: "fullName",
+      title: "fulle navnene"
     },
     {
       type: "slug",

@@ -1,7 +1,7 @@
-import "./App.css";
-import { Routes, Route} from "react-router-dom";
-import ShowMovies from "./pages/ShowMovies";
-import ShowActors from "./pages/ShowActors";
+import './App.css';
+import { Routes, Route} from 'react-router-dom';
+import ShowMovies from './pages/ShowMovies';
+import ShowActors from './pages/ShowActors';
 
 
 export default function App() {

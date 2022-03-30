@@ -1,7 +1,7 @@
+import Actors from '../components/Actors'
+
 export default function ShowActors() {
     return (
-      <h1>
-        hei actors
-      </h1>
+      <Actors />
     );
   }

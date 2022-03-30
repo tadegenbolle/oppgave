@@ -1,15 +1,13 @@
-
-import Movie from './Movie';
+import Actor from './Actor';
 
 export default function Movies() {
  
   return (
     <>
-    <Movie />  
+    <Actor />  
 
     </>
   );
   
 
   }
-  

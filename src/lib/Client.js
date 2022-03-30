@@ -1,14 +1,14 @@
-import sanityClient from "@sanity/client";
+import sanityClient from '@sanity/client';
 
 const options = {
-  projectId: "4m6djkxx",
-  dataset: "production",
+  projectId: '4m6djkxx',
+  dataset: 'production',
   apiVersion: "2021-03-25",
 };
 
 const client = sanityClient({
   ...options,
-  useCdn: process.env.NODE_ENV === "production",
+  useCdn: process.env.NODE_ENV === 'production',
 });
 
 export default client;
